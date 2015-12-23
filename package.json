@@ -1,0 +1,26 @@
+{
+  "name": "myweb",
+  "version": "1.0.0",
+  "description": "learning css with some funny works...",
+  "main": "index.js",
+  "dependencies": {
+    "grunt": "^0.4.5"
+  },
+  "devDependencies": {
+    "grunt": "^0.4.5",
+    "grunt-contrib-watch": "^0.6.1"
+  },
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lasanthabandara/myweb.git"
+  },
+  "author": "Lasantha Bandara",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lasanthabandara/myweb/issues"
+  },
+  "homepage": "https://github.com/lasanthabandara/myweb#readme"
+}
