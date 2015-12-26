@@ -21,7 +21,7 @@ div#main-content {
     font-size: 16px;
     color: #a9a9a9;
     font-weight: bold;
-    margin-top:8px;
+    margin-top: 8px;
 }
 
 nav {
@@ -40,4 +40,18 @@ nav {
 
 img#banner {
     margin-top: 24px;
+    margin-bottom: 24px;
+}
+
+section#description {
+    font-size: 18px;
+    font-weight: bold;
+    color: black;
+    text-align: justify;
+    margin-bottom: 30px;
+    line-height: 1.4;
+}
+
+.blue{
+    color: #009fe0;
 }
