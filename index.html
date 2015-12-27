@@ -6,11 +6,29 @@
     <title>Lasantha Bandara</title>
 </head>
 <body id="page-body">
+    <div id="fb-root"></div>
+    <script>
+        (function (d, s, id) {
+            var js, fjs = d.getElementsByTagName(s)[0];
+            if (d.getElementById(id)) return;
+            js = d.createElement(s); js.id = id;
+            js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.5&appId=166519373519280";
+            fjs.parentNode.insertBefore(js, fjs);
+        }(document, 'script', 'facebook-jssdk'));</script>
+    <script>
+        !function (d, s, id) {
+            var js, fjs = d.getElementsByTagName(s)[0], p = /^http:/.test(d.location) ? 'http' : 'https';
+            if (!d.getElementById(id)) {
+                js = d.createElement(s);
+                js.id = id; js.src = p + "://platform.twitter.com/widgets.js";
+                fjs.parentNode.insertBefore(js, fjs);
+            }
+        }(document, "script", "twitter-wjs");</script>
     <div id="main-content">
         <header id="content-head">
             <h1 id="logo-name" class="logo">LASANTHA BANDARA</h1>
             <nav>
-                <a href="/app/home/index.html">HOME</a>
+                <a href="/index.html">HOME</a>
                 <a href="/app/blog/index.html">BLOG</a>
                 <a href="/app/projects/index.html">PROJECTS</a>
                 <a href="/app/contacts/index.html">CONTACTS</a>
@@ -20,35 +38,31 @@
         <img id="banner" src="images/cover.png" width="960" />
         <section id="description">
             <span class="blue">I consider myself as a scientist</span>, since I’m digging deeper and deeper to the basics of software development.
-            These days, anyone can write a working piece of software, using a set of frameworks and tools. As I believe, world needs more and more generous,
+            Anyone can write a working piece of software, using a set of frameworks and tools, but world needs more and more generous,
             humble and brilliant personalities to advance the science part of software development.
         </section>
         <hr id="after-description" />
-        <section>
-            <h1>WELCOME</h1>
-            <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque nec semper justo, sed interdum nisi. Aliquam erat volutpat. Nullam ac lobortis metus. Duis feugiat, sapien ac fermentum consectetur, lacus erat placerat nunc, vitae accumsan elit eros vitae ex. Nam ac libero ultricies, pretium erat a, facilisis nulla. Fusce nibh lorem, porttitor a volutpat sit amet, bibendum et velit. Nam congue molestie lorem vitae iaculis.
-            </p>
-        </section>
-        <section>
-            <h1>FRESH LINKS</h1>
-            <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque nec semper justo, sed interdum nisi.
-            </p>
-            <ul>
-                <li>Vel sapien et libero vestibulum cursus quis et augue</li>
-                <li>Duis laoreet faucibus nulla, et blandit massa</li>
-                <li>Pellentesque et condimentum erat, quis sollicitudin</li>
-                <li>vel sapien et libero vestibulum cursus quis et augue</li>
-                <li>Duis laoreet faucibus nulla, et blandit massa</li>
-            </ul>
-        </section>
-        <section>
-            <h1>LATEST NEWS</h1>
-            <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque nec semper justo, sed interdum nisi. Aliquam erat volutpat. Nullam ac lobortis metus. Duis feugiat, sapien ac fermentum consectetur, lacus erat placerat nunc, vitae accumsan elit eros vitae ex. Nam ac libero ultricies, pretium erat a, facilisis nulla. Fusce nibh lorem, porttitor a volutpat sit amet, bibendum et velit. Nam congue molestie lorem vitae iaculis.
-            </p>
-        </section>
+        <p id="scroll-header">Keep In Touch:</p>
+        <div class="fb-page"
+             data-href="https://www.facebook.com/GOTOConference"
+             data-tabs="timeline"
+             data-small-header="true"
+             data-adapt-container-width="false"
+             data-hide-cover="true"
+             data-show-facepile="false">
+            <div class="fb-xfbml-parse-ignore">
+                <blockquote cite="https://www.facebook.com/GOTOConference">
+                    <a href="https://www.facebook.com/GOTOConference">GOTO Conference</a>
+                </blockquote>
+            </div>
+        </div>
+        <div class="twitter-page">
+            <a class="twitter-timeline" href="https://twitter.com/AngularTutorial" data-widget-id="681095666253217792">Tweets by @AngularTutorial</a>
+        </div>
+        <div class="twitter-page">
+            <a class="twitter-timeline" href="https://twitter.com/lasa_sdb/lists/net-development" 
+               data-widget-id="681133923296923648">Tweets from https://twitter.com/lasa_sdb/lists/net-development </a>
+        </div>
         <hr id="before-footer" />
         <footer>
             &copy;2015-2016 All Rights Reserved | By <a class="blue" href="mailto:lasanthasridinesh@gmail.com" target="_top">lasanthasridinesh@gmail.com</a>
