@@ -24,6 +24,27 @@ Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "StaticHtml", "StaticHtml\",
 		SlnRelativePath = "StaticHtml\"
 	EndProjectSection
 EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "Angular2", "Angular2\", "{4E8E4DEC-58FD-40F1-94C8-1D51064E58A1}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.0"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_52081"
+		Debug.AspNetCompiler.PhysicalPath = "Angular2\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_52081\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_52081"
+		Release.AspNetCompiler.PhysicalPath = "Angular2\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_52081\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "52081"
+		SlnRelativePath = "Angular2\"
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -31,6 +52,8 @@ Global
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{1ED31EE0-23B5-4B94-8AD0-B488A4AAFCB1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{1ED31EE0-23B5-4B94-8AD0-B488A4AAFCB1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4E8E4DEC-58FD-40F1-94C8-1D51064E58A1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4E8E4DEC-58FD-40F1-94C8-1D51064E58A1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
