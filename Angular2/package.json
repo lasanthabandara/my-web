@@ -1,8 +1,8 @@
 {
-  "name": "angular2-quickstart",
+  "name": "Lasa-Angular2",
   "version": "1.0.0",
   "scripts": {
-    "start": "tsc --outDir ./appCompiled && concurrently \"npm run tsc:w\" \"npm run lite\" ",
+    "start": "grunt && tsc --outDir ./appCompiled && concurrently \"npm run tsc:w\" \"npm run lite\" ",
     "lite": "lite-server",
     "postinstall": "typings install",
     "tsc": "tsc",
@@ -31,6 +31,8 @@
   },
   "devDependencies": {
     "concurrently": "^2.2.0",
+    "grunt": "^1.0.1",
+    "grunt-contrib-clean": "^1.0.0",
     "lite-server": "^2.2.2",
     "typescript": "^1.8.10",
     "typings": "^1.3.2"
