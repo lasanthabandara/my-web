@@ -10,7 +10,7 @@ import { HeroService } from '../../services/hero.service';
     styleUrls: ['app/components/heroes/heroes.component.css']
 })
 export class HeroesComponent {
-    title = 'Tour of Heroes';
+    title = 'Tour of Heroesssssss';
     heroes: Hero[];
     selectedHero: Hero;
 
