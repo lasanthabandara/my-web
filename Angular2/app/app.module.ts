@@ -4,7 +4,7 @@ import { FormsModule }   from '@angular/forms';
 import { HttpModule }    from '@angular/http';
 
 import { routing } from './app.routing';
-import { AppComponent } from './app.component';
+import { AppComponent } from './components/app.component';
 
 import { HeroesComponent }  from './components/heroes/heroes.component';
 import { HeroDetailComponent } from './components/hero-detail/hero-detail.component';
